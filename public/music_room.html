@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="myjquery.js"></script>
+    <link rel="stylesheet" href="my_css.css">
+    <title>music_room</title>
+</head>
+<body>
+    <div class=divh >
+        <h2 style="text-align:center" class='main_h'>RockOn</h2>
+    </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="music.mp4" type="video/mp4">
+    </video>
+    <img src='photo.png' id="image2">
+    <div id="dg">
+    <br>
+    <br>
+    <h2>welcome to music room!!</h1>
+    <br>
+    
+    <h3>choose your instrument:</h3>
+    <br>
+    <button type="button" class="btn btn-primary btn-lg" id="b2">guitar</button>
+    <button type="button" class="btn btn-primary btn-lg" id="b3"> piano</button>
+    <button type="button" class="btn btn-primary btn-lg" id="b4">drums</button>
+    <br>
+    <br>
+    <div id="d1" style="display: none">
+        <button type="button" class="btn btn-primary btn-sm" id="d1b1">Guitar1</button>
+        <button type="button" class="btn btn-primary btn-sm" id="d1b2">Guitar2</button>
+        <button type="button" class="btn btn-primary btn-sm" id="d1b3">Guitar3</button>
+        <button type="button" class="btn btn-primary btn-sm" id="d1b4">Guitar4</button>
+
+    </div>
+    <div id="d2" style="display: none">
+        <button type="button" class="btn btn-primary btn-sm" id="d2b1">piano1</button>
+        <button type="button" class="btn btn-primary btn-sm" id="d2b2">piano2</button>
+        <button type="button" class="btn btn-primary btn-sm" id="d2b3">piano3</button>
+        <button type="button" class="btn btn-primary btn-sm" id="d2b4">piano4</button>
+
+    </div>
+    <div id="d3" style="display: none">
+        <button type="button" class="btn btn-primary btn-sm" id="d3b1">drums1</button>
+        <button type="button" class="btn btn-primary btn-sm" id="d3b2">drums2</button>
+        
+
+    </div>
+    </div>
+    
+   
+    <audio id="a1" src="guitar/aadd9open.mp3"></audio>
+    <audio id="a2" src="guitar/Acoustic Gtr Strum-18720-Free-Loops.com.mp3"></audio>
+    <audio id="a3" src="guitar/asusopen.mp3"></audio>
+    <audio id="a4" src="guitar/BassSlap E 127 4o.mp3"></audio>
+
+    <audio id="a5" src="piano/Ex_01.mp3"></audio>
+    <audio id="a6" src="piano/Kawai_middle_C.mp3"></audio>
+    <audio id="a7" src="piano/Kawai_octave_A_A.mp3"></audio>
+    <audio id="a8" src="piano/piano-sound.mp3"></audio>
+
+    <audio id="a9" src="drums/Free RNB Loop.wav-15420-Free-Loops.com.mp3"></audio>
+    <audio id="a10" src="drums/icantstop1.wav"></audio>
+    
+</body>
+</html>
